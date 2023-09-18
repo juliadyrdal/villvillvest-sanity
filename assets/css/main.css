@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Druk Wide Super';
+    src: url('@/assets/type/DrukWide-Super-Web.woff2') format('woff2'),
+         url('@/assets/type/DrukWide-Super-Web.woff') format('woff');
+    font-weight:  900;
+    font-style:   normal;
+    font-stretch: normal;
+  }
+
+  @font-face {
+    font-family: 'Druk Wide Medium';
+    src: url('@/assets/type/DrukWide-Medium-Web.woff2') format('woff2'),
+         url('@/assets/type/DrukWide-Medium-Web.woff') format('woff');
+    font-weight:  500;
+    font-style:   normal;
+    font-stretch: normal;
+  }
